@@ -1,4 +1,4 @@
-Build & Preview
+## Build & Preview
 ```sh
 bundle exec jekyll serve
 ```
