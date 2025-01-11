@@ -1,7 +1,14 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    {% if page.title == "Home" %}
+    {% for item in site.data.publications.published %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+    {% endfor %}
+    <!-- <h4 class="fw-bold pb-3 mb-5">Working</h4> -->
+    {% for item in site.data.publications.working %}
+        <p>{{ item.name }} [Working Paper]</p>
+    {% endfor %}
+    <!-- {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
@@ -9,6 +16,6 @@
       {% for item in site.data.publications.index %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
-    {% endif %}
+    {% endif %} -->
   </div>
 </div>
