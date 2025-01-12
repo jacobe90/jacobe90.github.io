@@ -8,4 +8,11 @@ body a {
   color: #212529 !important;
 }
 
+blockquote {
+  border-left: 2px solid #000000; /* Creates a black vertical line */
+  padding-left: 15px; /* Adds some space between the line and text */
+  margin-left: 0; /* Optional: Adjusts the left margin */
+  font-style: italic; /* Optional: Makes the quote text italic */
+}
+
 /*# sourceMappingURL=main.css.map */
