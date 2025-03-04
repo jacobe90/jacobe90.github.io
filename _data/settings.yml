@@ -17,4 +17,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/epstein-jacob/'}
 
 contacts:
-- {name: 'Jacob Epstein', title: 'Student', department: 'Computer Science', institution: 'University of Massachusetts Amherst', institution_address: '1 Main Street, Canada', phone: '(781) 856-8468', email: 'jepstein@umass.edu', image: 'assets/img/contact.jpeg'}
+- {name: 'Jacob Epstein', title: 'Student', department: 'Computer Science', institution: 'University of Massachusetts Amherst', email: 'jepstein@umass.edu', image: 'assets/img/contact.jpeg'}
