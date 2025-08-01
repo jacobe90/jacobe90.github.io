@@ -1,1 +1,14 @@
-{"version":3,"sourceRoot":"","sources":["../../_sass/main_sass.scss"],"names":[],"mappings":"AAKA;EACE,YANgB;EAOhB,OANU;EAOV,aANS;;;AASX;EACE,OATU;;;AAYZ;EACE;EACA;EACA;EACA","sourcesContent":["$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n$linkColor: #212529 !important;\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n\nbody a {\n  color: $linkColor\n}\n\nblockquote {\n  border-left: 2px solid $bodyColor; /* Creates a black vertical line */\n  padding-left: 15px;          /* Adds some space between the line and text */\n  margin-left: 0;              /* Optional: Adjusts the left margin */\n  font-style: italic;          /* Optional: Makes the quote text italic */\n}\n"],"file":"main.css"}
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main_sass.scss"
+	],
+	"sourcesContent": [
+		"@import \"main_sass\";\n",
+		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n$linkColor: #212529 !important;\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n\nbody a {\n  color: $linkColor\n}\n\nblockquote {\n  border-left: 2px solid $bodyColor; /* Creates a black vertical line */\n  padding-left: 15px;          /* Adds some space between the line and text */\n  margin-left: 0;              /* Optional: Adjusts the left margin */\n  font-style: italic;          /* Optional: Makes the quote text italic */\n}\n"
+	],
+	"names": [],
+	"mappings": "ACKA,AAAA,IAAI,CAAC,EACH,UAAU,EANM,OAAO,EAOvB,KAAK,EANK,OAAO,EAOjB,WAAW,EANF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAOvI;;AAED,AAAA,IAAI,CAAC,CAAC,CAAC,EACL,KAAK,EATK,OAAO,CAAC,UAAU,GAU7B;;AAED,AAAA,UAAU,CAAC,EACT,WAAW,EAAE,GAAG,CAAC,KAAK,CAfZ,OAAO,EAekB,mCAAmC,CACtE,YAAY,EAAE,IAAI,EAAW,+CAA+C,CAC5E,WAAW,EAAE,CAAC,EAAe,uCAAuC,CACpE,UAAU,EAAE,MAAM,EAAW,2CAA2C,EACzE"
+}
